@@ -70,7 +70,7 @@ The wallaby testnet can run not only 512MiB sectors but also 32GiB and 64GiB sec
 
 Please follow the [guide in the lotus documentation](https://lotus.filecoin.io/storage-providers/get-started/overview/) on running a filecoin miner. 
 
-During the [Initialization](https://lotus.filecoin.io/storage-providers/setup/initialize/#initialization) step add the flag `--sector-size=512MiB` to the `lotus-miner init --owner=<address>  --worker=<address> --no-local-storage` command to runa  512MiB miner
+During the [Initialization](https://lotus.filecoin.io/storage-providers/setup/initialize/#initialization) step add the flag `--sector-size=512MiB` to the `lotus-miner init --owner=<address>  --worker=<address> --no-local-storage` command to run a  512MiB miner
 
 `lotus-miner init --owner=<address>  --worker=<address> --no-local-storage --sector-size=512MiB`
 
@@ -82,7 +82,7 @@ Please take note that [Performance tweaks](https://lotus.filecoin.io/storage-pro
 
 - If you batch precommits - be careful with the C2 tasks. A single worker will start as many as it can at once, leading to slow down of all of them (same for restarts of a c2 worker with a lot of sectors expecting to leave `WaitSeed` during the down time). We recommend to turn off precommit batching all together with 512MiB miners
 
-- It seems to make no sense to do span deals for speed purposes on 512MiB sector miners. The RU2 task alone takes longer than sealing a whole sector (sure - 5 mins `WaitSeed` plays it part in that)
+- It seems to make no sense to do snap deals for speed purposes on 512MiB sector miners. The RU2 task alone takes longer than sealing a whole sector (sure - 5 mins `WaitSeed` plays it part in that)
 
 ## Infrastructure
 
