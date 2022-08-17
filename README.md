@@ -90,7 +90,7 @@ Please take note that [Performance tweaks](https://lotus.filecoin.io/storage-pro
 
 The faucet for the Wallaby Testnet can be found at [https://wallby.network](https://wallaby.network/#faucet).
 
-The faucet currently emits 50 FIL per request. Should you need more FIl at once to conduct testing please [Contact](#contact) us and we will discuss your needs for more FIL.
+The faucet currently emits 50 FIL per request. Should you need more FIL at once to conduct testing please [Contact](#contact) us and we will discuss your needs for more FIL.
 
 ### Notary
 
