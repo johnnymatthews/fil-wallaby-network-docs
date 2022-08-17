@@ -21,7 +21,7 @@
     * [Slack](#slack)
         * [#fil-net-wallaby-help](#fil-net-wallaby-help)
         * [#fil-net-wallaby-discuss](#fil-net-wallaby-discuss)
-    * [eMAil](#email)
+    * [eMail](#email)
 
 
 ## About
