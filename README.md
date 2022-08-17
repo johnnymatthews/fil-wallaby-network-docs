@@ -3,7 +3,7 @@
 
 ## ToC
 * [About](#about)
-    * [Filecoin official Information Sources](#filecoin-official-information-ources)
+    * [Filecoin official Information Sources](#filecoin-official-information-sources)
 * [How to join the network](#how-to-join-the-network)
     * [Building](#building)
     * [Running a 512MiB miner](#running-a-512mib-miner)
