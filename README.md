@@ -136,7 +136,7 @@ Please refer to the following configuration params to get a clearer picture what
   MaxSealingSectorsForDeals = 1
   PreferNewSectorsForDeals = true
   MaxUpgradingSectors = 0
-  WaitDealsDelay = "1h0m0s"
+  WaitDealsDelay = "0h1m0s"
   AlwaysKeepUnsealedCopy = true
   FinalizeEarly = true
   BatchPreCommits = false
